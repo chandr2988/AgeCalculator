@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <script>
+        function readd(eve){
+       let d=eve.target.vale
+    console.log(d)
+}
+    </script> -->
+    <title>Age Calculator</title>
+</head>
+<body>
+    <div class="card">
+        <div class="heading">
+            Age Calculator
+        </div>
+        <div class="element">
+            <div class="subelement">
+                <div>Day</div>
+                <input type="text" name="day" value="" placeholder="DD" onchange="readd(event)">
+            </div>
+            <div class="subelement">
+                <div>Month</div>
+                <input type="text" name="month" value="" placeholder="MM" onchange="readm(event)">
+            </div>
+            <div class="subelement">
+                <div>Year</div>
+                <input type="text" name="year" value="" placeholder="YYYY" onchange="ready(event)">
+            </div>
+        </div>
+        <button class="button" onclick="age()">Calculate Age</button>
+        <div id="displayage"></div>
+    </div>
+</body>
+<script src="head.js"></script>
+</html>
